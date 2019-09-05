@@ -1,0 +1,21 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df1 = pd.DataFrame({
+    "mes": ["janeiro","fevereiro","marco","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],
+    "orcado": [330,290,230,321,283,291,193,259,289,230,434,421]
+})
+df1
+
+df2 = pd.DataFrame({
+    "mes": ["janeiro","fevereiro","marco","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],
+    "realizado": [240,280,200,310,230,213,239,210,210,210,232,213]
+})
+df2
+
+df3=pd.merge(df1,df2,on="mes")
+df3
+
+df3["diferença"] = df1["orcado"].sub(df2["realizado"])
+df3
+
