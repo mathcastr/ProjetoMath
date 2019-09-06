@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import cvs
 
 df1 = pd.DataFrame({
     "mes": ["janeiro","fevereiro","marco","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],
