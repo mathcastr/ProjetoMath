@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import cvs
 
 df1 = pd.DataFrame({
     "mes": ["janeiro","fevereiro","marco","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],
@@ -19,3 +20,4 @@ df3
 df3["diferença"] = df1["orcado"].sub(df2["realizado"])
 df3
 
+plot.show()
