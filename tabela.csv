@@ -1,2 +1,0 @@
-"{ ""cells"": [ { ""cell_type"": ""code"", ""execution_count"": 70, ""metadata"": { ""scrolled"": true }, ""outputs"": [], ""source"": [ ""import pandas as pd\n"", ""df = pd.read_excel(\""dados.xlsx\"")"" ] }, { ""cell_type"": ""code"", ""execution_count"": 71, ""metadata"": {}, ""outputs"": [], ""source"": [ ""df = pd.read_excel(\""dados.xlsx\"")"" ] }, { ""cell_type"": ""code"", ""execution_count"": 72, ""metadata"": {}, ""outputs"": [ { ""data"": { ""text/html"": [ """;;;;;;;;;;;;;;;;;;;
-"\n"", """;;;;;;;;;;;;;;;;;;;
